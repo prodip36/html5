@@ -1,0 +1,43 @@
+nav > ul > li {
+    display: inline;
+    margin-right: 18px;
+    font-size: 20px;
+}
+nav li > a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+main > p{
+    background-color: rgb(255, 145, 0);
+}
+.div3{
+    background-color: chartreuse;
+    width: 23.33%;
+    float: right;
+    }
+.div1{
+background-color: rgb(219, 195, 217);
+width: 23.33%;
+float: left;
+}
+.div2{
+background-color: rgb(221, 235, 233);
+width: 53.33%;
+margin: 0 auto;
+}
+.div2>p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.div3>p{
+    color: blue;
+    margin-left: 20px;
+    border: 2px red solid;
+}
+h3{
+    text-align: center;
+}
