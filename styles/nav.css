@@ -1,4 +1,4 @@
-nav ul {
+nav > ul {
     display: flex;
    
 }
@@ -15,4 +15,17 @@ nav li a{
 
 nav li:hover{
     background-color: lightgray;
+}
+
+nav li .menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(204, 203, 201);
+    padding-left: 10px;
+}
+
+nav li:hover >.menu{
+    display: block;
+   
+    
 }
